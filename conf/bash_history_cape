@@ -1,0 +1,497 @@
+cat .bash_history 
+ip a
+ping 192.168.1.103
+ping 192.168.1.102
+clear
+tcpdump
+sudo tcpdump
+nano /etc/ssh/sshd_config
+sudo nano /etc/ssh/sshd_config
+systemctl restart network
+sudo systemctl restart network
+sudo systemctl restart network-dispatcher
+sudo systemctl restart NetworkManager
+sudo systemctl restart systemd-networkd
+clear
+sudo systemctl restart ssh
+ip a
+clear
+sudo tcpdump
+clear
+sudo tcpdump
+reboot
+clear
+sudo apt update
+sudo apt upgrade
+ping google.com
+clear
+su root
+sudo passwd root
+clear
+su root
+clear
+su root
+sudo passwd root
+clear
+apt install
+sudo apt update
+lsb_release 
+lsb_release -a
+clear
+acpidbg 
+sudo acpidbg 
+acpidump
+sudo apt install acpica-tools
+clear
+acpidump
+sudo acpidump
+clear
+sudo acpidump
+clear
+nano kvm-qemu.sh
+chmod +x kvm-qemu.sh 
+clear
+sudo chmod a+x kvm-qemu.sh 
+sudo ./kvm-qemu.sh all capev2 | tee kvm-qemu.log
+reboot
+sudo reboot
+sudo ./kvm-qemu.sh virtmanager capev2 | tee kvm-qemu-virt-manager.log
+reboot
+sudo reboot
+clear
+virtmanager
+virt-manager
+ps -aux | grep virt-manager
+nano cape2.sh
+chmod a+x ./cape2.sh 
+./cape2.sh -h
+./cape2.sh all 192.168.1.103 | tee cape2.log
+sudo ./cape2.sh all 192.168.1.103 | tee cape2.log
+clear
+sudo nano /etc/ssh/sshd_config
+cape
+cape2
+clear
+sudo systemctl status cape
+sudo systemctl start cape
+sudo systemctl status cape
+/etc/poetry/bin/poetry run python cuckoo.py
+ls
+cd /opt/CAPEv2
+/etc/poetry/bin/poetry run python cuckoo.py
+ls
+clear
+ls -la
+ls -la | grep env
+clear
+/etc/poetry/bin/poetry run python cuckoo.py
+cd /opt/CAPEv2
+/etc/poetry/bin/poetry run pip install pyzipper pytz
+/etc/poetry/bin/poetry run python cuckoo.py
+/etc/poetry/bin/poetry install
+/etc/poetry/bin/poetry run python cuckoo.py
+sudo systemctl start cape
+sudo /etc/poetry/bin/poetry run python cuckoo.py
+sudo /etc/poetry/bin/poetry install
+sudo /etc/poetry/bin/poetry run python cuckoo.py
+journalctl -xeu cape
+clear
+systemctl status cape
+clear
+systemctl status cape
+journalctl -xeu cape
+clear
+sudo journalctl -u cape.service -n 50 --no-pager
+cd
+clear
+sudo ./cape2.sh base 192.168.1.103 | tee cape2.log
+./cape2 -h
+./cape2.sh -h
+systemctl status cape
+systemctl start cape
+sudo systemctl start cape
+clear
+sudo -u cape bash -c "cd /opt/CAPEv2 && /etc/poetry/bin/poetry install"
+sudo -u cape bash -c "cd /opt/CAPEv2 && /etc/poetry/bin/poetry run python cuckoo.py 2>&1"
+clear
+sudo -u cape bash -c "cd /opt/CAPEv2 && /etc/poetry/bin/poetry run python cuckoo.py "
+reboot
+sudo reboot
+clear
+systemctl status cape
+sudo systemctl status cape.service
+sudo systemctl status cape-web.service
+sudo systemctl status cape-rooter.service
+sudo systemctl status cape-processor.service
+sudo shutdown
+sudo shutdown now
+clear
+ip a
+sudo ip link set ens19 up
+sudo ip addr add 192.168.100.10/24 dev ens19
+i â
+clear
+ip a
+reboot
+sudo reboot
+ip a
+sudo ip addr add 192.168.100.100/24 dev ens19
+ip a
+sudo ip link set ens19 up
+ip a
+sudo nano /opt/CAPEv2/conf/cuckoo.conf
+sudo nano /opt/CAPEv2/conf/proxmox.conf
+sudo cat /opt/CAPEv2/conf/proxmox.conf
+clear
+ip a
+sudo nano /opt/CAPEv2/conf/proxmox.conf
+ip a
+sudo nano /opt/CAPEv2/conf/proxmox.conf
+sudo nano /opt/CAPEv2/conf/cuckoo.conf 
+ss -tunlp
+clear
+ss -tunlp | grep 2042
+ss -tunlp | grep "2042"
+clear
+wget https://www.python.org/ftp/python/3.13.13/python-3.13.13-amd64.exe
+clear
+ls
+clear
+mkdir send-file
+cd send-file/
+ckear
+clear
+mv ../python-3.13.13-amd64.exe ./
+clear
+cp /opt/CAPEv2/agent/agent.py ./agent.py
+clear
+ls
+clear
+python3 -m http.server 8888
+ip a
+ping 192.168.100.200
+ip a show
+ping 192.168.100.200
+python3 -m http.server 8888
+clear
+ls
+mv python-3.13.13-amd64.exe python.exe
+clear
+ls
+clear
+ls
+python3 -m http.server 8888
+nano agent.py 
+clear
+nmap -p 8000 192.168.100.200
+sudo apt install nmap
+clear
+nmap -p 8000 192.168.100.200
+ping 192.168.100.200
+clear
+ping 192.168.100.200
+clear
+ping 192.168.100.200
+clear
+ping 192.168.100.200
+ip a
+ping 192.168.100.200
+ip a
+clear
+ip a
+# From Ubuntu, trace the route to Windows
+ping -I ens19 192.168.100.200
+# Also try explicitly sourcing from the right interface
+ping -c 4 -I 192.168.100.100 192.168.100.200
+ping 192.168.100.200
+clear
+history | grep cp
+ls /opt/CAPEv2/agent/
+clear
+head agent.py 
+clear
+head agent.py -n 30
+wget https://www.python.org/ftp/python/3.11.9/python-3.11.9-amd64.exe
+clear
+ls
+clear
+mv python-3.11.9-amd64.exe python.exe 
+clear
+python -m http.server -p 8888
+history | grep http.server
+python3 -m http.server 8888
+wget https://www.python.org/ftp/python/3.11.9/python-3.11.9-amd86.exe
+wget https://www.python.org/ftp/python/3.11.9/python-3.11.9.exe
+mv python-3.11.9.exe python.exe 
+python3 -m http.server 8888
+curl http://192.168.100.200:8000
+clear
+curl http://192.168.100.200:8000
+cd /opt/CAPEv2
+sudo -u cape poetry run python utils/machine.py --debug
+systemctl status cape
+sudo reboot
+clear
+systemctl status cape
+curl http://192.168.100.200:8000
+clear
+ip a
+history | grep ip link
+history | grep "ip link"
+sudo ip link set ens19 up
+history | grep -A "139"
+history | grep -A 10 "139"
+history | grep -A -10 "139"
+grep --help
+history | grep -B -10 "139"
+history | grep -B 10 "139"
+sudo ip addr add 192.168.100.100/24 dev ens19
+sudo nano /etc/netplan/01-netcfg.yaml
+sudo netplan apply
+ping 192.168.100.200
+curl http://192.168.100.200:8000
+clear
+systemctl status cape*
+sudo systemctl status cape*
+sudo systemctl status cape
+sudo systemctl status cape-rooter.service 
+sudo systemctl status cape-processor.service 
+sudo systemctl status cape-web.service 
+clear
+sudo nano /opt/CAPEv2/web/web/local_settings.py 
+clear
+sudo nano /etc/systemd/system/cape-web.service
+ls /etc/systemd/system/
+sudo systemctl status cape-web.service 
+# On the jump host
+curl http://192.168.1.103:8000
+curl http://192.168.100.200:8000
+clear
+nano .ssh/authorized_keys 
+clear
+curl http://192.168.100.200:8000
+history | grep /opt/CAPEv2/
+sudo nano /opt/CAPEv2/conf/cuckoo.conf 
+sudo nano /opt/CAPEv2/conf/proxmox.conf 
+curl http://192.168.100.200:8000
+sudo nano /opt/CAPEv2/conf/proxmox.conf 
+clear
+curl http://192.168.100.200:8000
+clear
+sudo cat /opt/CAPEv2/conf/proxmox.conf 
+clear
+ip a
+sudo nano /opt/CAPEv2/conf/proxmox.conf 
+sudo nano /opt/CAPEv2/conf/cuckoo.conf
+clear
+sudo systemctl status cape
+sudo -u cape poetry run python /opt/CAPEv2/utils/machine.py --list
+where poetry
+which poetry
+sudo -u cape /etc/poetry/bin//poetry run python /opt/CAPEv2/utils/machine.py --list
+sudo -u cape /etc/poetry/bin/poetry run python /opt/CAPEv2/utils/machine.py --list
+clear
+cd /opt/CAPEv2 && sudo -u cape poetry run python utils/machine.py --list
+which poetry
+cd /opt/CAPEv2 && sudo -u cape /etc/poetry/bin/poetryrun python utils/machine.py --list
+cd /opt/CAPEv2 && sudo -u cape /etc/poetry/bin/poetry run python utils/machine.py --list
+cd /opt/CAPEv2 && sudo -u cape /etc/poetry/bin/poetry run python utils/machine.py WIN10VM
+cd /opt/CAPEv2 && sudo -u cape /etc/poetry/bin/poetry run python utils/machine.py Win10VM
+clear
+cd /opt/CAPEv2 && sudo -u cape /etc/poetry/bin/poetry run python utils/machine.py --list
+cd /opt/CAPEv2 && sudo -u cape /etc/poetry/bin/poetry run python utils/machine.py Win10VM
+cd /opt/CAPEv2 && sudo -u cape /etc/poetry/bin/poetry run python utils/machine.py --add Win10VM --ip 192.168.100.200 --platform windows --snapshot cape-clean --resultserver 192.168.100.100
+cd /opt/CAPEv2 && sudo -u cape /etc/poetry/bin/poetry run python utils/machine.py --add Win10VM --ip 192.168.100.200 --platform windows --snapshot cape-clean
+sudo nano /opt/CAPEv2/conf/proxmox.conf 
+ip a
+sudo nano /opt/CAPEv2/conf/proxmox.conf 
+cd /opt/CAPEv2 && sudo -u cape /etc/poetry/bin/poetry run python cuckoo.py --init
+cd /opt/CAPEv2 && sudo -u cape /etc/poetry/bin/poetry run python utils/db_migration/migrate.py
+clear
+sudo nano /opt/CAPEv2/conf
+cmear
+clear
+sudo nano /opt/CAPEv2/conf/cuckoo
+sudo nano /opt/CAPEv2/conf/cuckoo.conf 
+sudo nano /opt/CAPEv2/conf/proxmox.conf 
+sudo reboot
+sudo nano /opt/CAPEv2/conf/proxmox.conf 
+sudo -u postgres psql
+clear
+journalctl -xeu cape
+journalctl -xeu cape-web
+journalctl cape-web
+journalctl cape-web.service
+journalctl -a cape-web.service
+journalctl -xeua cape-web.service
+journalctl -xeu cape-web.service
+clear
+sudo nano /opt/CAPEv2/conf/reporting.conf 
+sudo nano /opt/CAPEv2/conf/api.conf 
+sudo systemctl restart cape-web.service 
+sudo reboot
+sudo cat /opt/CAPEv2/conf/proxmox.conf 
+clear
+sudo cat /opt/CAPEv2/conf/proxmox.conf 
+clear
+curl -k -d "username=cuckoo@pve&password=jep3AcI073um0FxQH6" https://192.168.1.24:8006/api2/json/access/ticket
+clear
+sudo journalctl -u cape.service --no-pager | grep -i "proxmox\|machine\|error\|warn" | head -50
+cd /opt/CAPEv2 && sudo -u cape /etc/poetry/bin/poetry run pip install pytz 
+clear
+sudo journalctl -u cape.service --no-pager | tail -20
+curl http://192.168.1.103:8000/apiv2/machines/list/
+sudo journalctl -u cape.service -f
+sudo systemctl start mongod
+clear
+sudo systemctl status mongod postgresql
+sudo apt install mongodb
+sudo apt update
+sudo apt install mongodb
+sudo rm /etc/apt/sources.list.d/mongodb-org-4.4.list
+curl -fsSL https://pgp.mongodb.com/server-7.0.asc | sudo gpg -o /usr/share/keyrings/mongodb-server-7.0.gpg --dearmor
+echo "deb [ signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg ] \
+https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/7.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-7.0.list
+sudo apt update
+sudo apt install mongodb-org
+sudo systemctl enable mongod
+sudo systemctl start mongod
+mongosh
+sudo nano conf/reporting.conf
+systemctl restart cape
+mongosh
+show dbs
+mongo
+mongosh
+sudo systemctl status mongod
+sudo systemctl start mongod
+sudo systemctl status mongod
+lscpu | grep avx
+clear
+sudo cat /opt/CAPEv2/conf/proxmox.conf 
+clear
+sudo grep -n "^machinery" /opt/CAPEv2/conf/cape.conf
+sudo grep -n "^machinery" /opt/CAPEv2/conf/cuckoo.conf 
+curl -sk -d "username=cuckoo@pve&password=jep3AcI073um0FxQH6"   https://192.168.1.24:8006/api2/json/access/ticket | python3 -m json.tool
+clear
+curl -sk   -b "PVEAuthCookie=PVE:cuckoo@pve:69EA349D::B5kp+YKWh/k0xHNOV+Sim+Dv4pV5hd1azdO9ajLe4h0yMr1uEVnJatomcYBZnMkzxWl8VSnAgMCfxyHiRcJ1WPRtyxk7C5JURPoQOr6uuEIoqWuS47Xl5yVacvAR5BJNgIVu0VlCeIphJ+LHzNWixI45BI1w6RFwgaAvbY69Ve3qHhDr6w1dYJ1Tvg35u5KnvBH8tOuSlo8q7Wobu5RBuL3y4TFlVJ5nv4Fdt2ExUcZEJKX2GpVDZyn8MTuy4nX4Lt2uJC6QQRl5pYc4cG5nip2G5Ob1YcTwwwm6rTU+FTyszf8SUvUqRmlLGFDWsxW5Z8XQHYrwfxBi7ajmdQesQ=="   https://192.168.1.24:8006/api2/json/nodes | python3 -m json.tool
+sudo journalctl -u cape.service -n 150 --no-pager | grep -iE "proxmox|machinery|machine|error|warn|traceback|exception"
+sudo grep -iE "proxmox|machinery|machine|error|exception|traceback" /opt/CAPEv2/log/cape.log | tail -50
+cd /opt/CAPEv2
+sudo -u capev2 python3 -c "
+import sys
+sys.path.insert(0, '.')
+from lib.cuckoo.common.config import Config
+cfg = Config('proxmox')
+print('hostname:', cfg.proxmox.hostname)
+print('username:', cfg.proxmox.username)
+print('nodes:', cfg.proxmox.nodes)
+print('machines:', cfg.proxmox.machines)
+"
+clear
+which poetry
+sudo -u cape /etc/poetry/bin/poetry run python3 -c "import proxmoxer; print('proxmoxer OK:', proxmoxer.__version__)"
+sudo -u cape /etc/poetry/bin/poetry run pip install proxmoxer requests -U
+sudo -u cape /etc/poetry/bin/poetry run python3 -c "import proxmoxer; print('proxmoxer OK:', proxmoxer.__version__)"
+cd /opt/CAPEv2
+sudo -u cape /etc/poetry/bin/poetry run pip install proxmoxer requests -U
+clear
+nano conf/proxmox.conf 
+sudo nano conf/proxmox.conf 
+clear
+sudo systemctl status mongod
+sudo systemctl enable mongod --now
+# If it fails to start:
+sudo journalctl -u mongod -n 30 --no-pager
+grep -o 'avx[^ ]*' /proc/cpuinfo | sort -u
+lscpu | grep -i avx
+mongod --version
+sudo journalctl -k | grep -i "mongod\|illegal\|trap" | tail -20
+# or
+sudo dmesg | grep -i "mongod\|illegal\|trap" | tail -20
+clear
+# Stop and purge current MongoDB
+sudo systemctl stop mongod
+sudo apt-get remove --purge mongodb-org* -y
+sudo rm -f /etc/apt/sources.list.d/mongodb*.list
+# Add MongoDB 4.4 repo (adjust if you're on Ubuntu 22.04 jammy vs 20.04 focal)
+lsb_release -cs  # check your Ubuntu codename first
+shutdown now
+sudo shutdown now
+grep -o 'avx[^ ]*' /proc/cpuinfo | sort -u
+# Import MongoDB GPG key
+curl -fsSL https://www.mongodb.org/static/pgp/server-8.0.asc |   sudo gpg -o /usr/share/keyrings/mongodb-server-8.0.gpg --dearmor
+# Add the Noble (24.04) repo
+echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-8.0.gpg ] \
+  https://repo.mongodb.org/apt/ubuntu noble/mongodb-org/8.0 multiverse" |   sudo tee /etc/apt/sources.list.d/mongodb-org-8.0.list
+# Install
+sudo apt-get update
+sudo apt-get install -y mongodb-org
+# Enable and start
+sudo systemctl enable mongod --now
+sudo systemctl status mongod
+# Confirm it no longer crashes
+mongod --version
+reboot
+sudo systemctl status cape
+sudo systemctl status cape*
+sudo reboot
+sudo echo
+clear
+curl -s http://localhost:8000/apiv2/tasks/get/1/ | python3 -m json.tool | head -50
+curl -s http://localhost:8000/apiv2/tasks/get/1/ |  jq
+curl -s http://localhost:8000/apiv2/tasks/get/1/
+clear
+# Correct API endpoint
+curl -s http://localhost:8000/apiv2/tasks/view/1/ | python3 -m json.tool
+# Check the analysis storage folder
+ls /opt/CAPEv2/storage/analyses/
+# Check the most recent task's logs (replace 1 with your latest task ID)
+ls /opt/CAPEv2/storage/analyses/1/
+cat /opt/CAPEv2/storage/analyses/1/analysis.log 2>/dev/null | tail -50
+clear
+ls
+mv hello_world.exe send-file/
+clear
+ls
+cd send-file/
+clear
+history | grep "http"
+clear
+history | grep "http.server"
+python3 -m http.server 8888
+sudo echo
+clear
+cd send-file/
+clear
+file hello_world.exe 
+sudo nano /opt/CAPEv2/conf/proxmox.conf 
+sudo systemctl restart cape
+sudo systemctl restart cape-web.service 
+sudo systemctl restart cape-processor.service 
+sudo systemctl restart cape-rooter.service 
+clear
+history | grep curl
+curl http://192.168.100.200:8000
+clear
+sudo reboot
+clear
+sudo cat /opt/CAPEv2/conf/proxmox.conf 
+sudo nano /opt/CAPEv2/conf/proxmox.conf 
+sudo reboot
+sudo nano /opt/CAPEv2/conf/proxmox.conf 
+sudo reboot
+clear
+sudo nano /opt/CAPEv2/conf/proxmox.conf 
+clear
+sudo cat /opt/CAPEv2/conf/proxmox.conf 
+clear
+tail -n 100 /opt/CAPEv2/log/machinery.log
+clear
+cd /opt/CAPEv2/
+clear
+ls
+cd log
+clear
+ls
+clear
