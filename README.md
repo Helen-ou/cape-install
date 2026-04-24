@@ -1,4 +1,3 @@
-l# cape-install
 Guide to a Proxmox installation of Cape2
 
 I will do my best to share information on how to install Cape2, as I ran into lots of issues it. The documentation being mostly lacking in the configuration, I'll share also my configuation files and a small compendium of aliases to work faster. Hope this helps :)
@@ -19,6 +18,10 @@ For this setup, you'll need 1 VM to host the Cape server, and at least 1 VM to b
 I now think I could've use an LXC instead of a VM for the Cape2 server, but for my purposes should be a bit more secure.
 
 During the down times of the installation (there will be many..), I recommened confugrating the stuff right down.
+
+### User
+
+You should create a new user specifically for the Cuckoo tasks. On my end, I created the user "cuckoo" within the realm "pve". Note down the password then put it inside the config file of proxmox.conf.
 
 ### Network 
 
