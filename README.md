@@ -6,7 +6,7 @@ I will do my best to share information on how to install Cape2, as I ran into lo
 There being lots of moving parts, I ran into some issues others did not and did not run in issues others did. Good luck o7
 
 
-I didn't use https://github.com/rebaker501/capev2install as it didn't focus on the Proxmox side of things, but check it out ! The information regarding the acpi and setup VM (which I haven't had time to test out yet but will check out) should be very helpful :D
+I didn't use https://github.com/rebaker501/capev2install as it didn't focus on the Proxmox side of things, but check it out ! The information regarding the acpi and setup of the Windows VM (which I haven't had time to test out yet but will check out) should be very helpful :D
 
 # Proxmox 
 
