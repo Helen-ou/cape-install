@@ -1,4 +1,4 @@
-# cape-install
+l# cape-install
 Guide to a Proxmox installation of Cape2
 
 I will do my best to share information on how to install Cape2, as I ran into lots of issues it. The documentation being mostly lacking in the configuration, I'll share also my configuation files and a small compendium of aliases to work faster. Hope this helps :)
@@ -111,4 +111,32 @@ sudo -u cape /etc/poetry/bin/poetry run pip install proxmoxer requests -U
 
 After a config change, it was easier for me to just sudo reboot every time to make sure it was taken into account.
 
-Will continue when I'll find the time to.
+
+# Windows VM
+
+Download the ISO for the appropriate Windows. I went for win 10 as it's the most easy to setup without lots of bloatware like Win 11 has.
+
+For my purposes, I haven't yet enabled internet access, but it would be most trivial. A next section of this tutorial comprises the firewall rules I have setup to minimize the attack surface if any virus were able to breach containment.
+
+
+After installation, go for a python version >3.9 and <3.13. Here's how I sent the files (agent.py, gotten from `/opt/CAPEv2/agent/agent.py`)
+
+```bash
+# On Cape server
+mkdir send-file && cd send-file
+wget https://www.python.org/ftp/python/3.11.9/python-3.11.9.exe
+cp /opt/CAPEv2/agent/agent.py ./agent.py
+python -m http.server 8888
+```
+
+
+```powershell
+# On the Win VM
+Invoke-WebRequest -Uri 'http://192.168.100.100:8888/agent.py' OutFile agent.py
+```
+
+As the agent.py should be ran as an administrator, the recommended way is via a scheduled task set on activating on boot. I exported the task I made and put it at `conf/ScheduledTask.conf` (user is SYSTEM obv).
+
+
+
+Will continue soon™
