@@ -63,8 +63,8 @@ To install Cape2 :
 
 https://github.com/kevoreilly/CAPEv2/blob/master/installer/cape2.sh
 ```bash
-   65  chmod a+x ./cape2.sh
-   68  sudo ./cape2.sh all 192.168.1.103 | tee cape2.log
+chmod a+x ./cape2.sh
+sudo ./cape2.sh all 192.168.1.103 | tee cape2.log
 ```
 
 The configuration for Cape2 sits at `/opt/CAPEv2/conf/, and in my use case I only needed to modify cuckoo.conf and proxmox.conf.
@@ -73,7 +73,7 @@ The installation was missing mongod :
 
 ```bash
 # On the PROXMOX HOST
-qm shutdown <103
+qm shutdown 103
 qm set 103 --cpu host
 qm start 103
 ```
